@@ -6,135 +6,132 @@
 # feature for the data you need to update frequently.
 
 # Main Page Setup
-
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
-
-
+title: Sean Kimani | Mechanical Engineering Portfolio
 
 # Hero Section
-name: John Doe
-headline: headline message
-description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: Sean Kimani
+headline: Mechanical Engineering Student | CAD, Manufacturing, Testing & Product Design
 
-# Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+description: >-
+  I am a Mechanical Engineering student at Columbia University focused on mechanical design, manufacturing,
+  CAD, prototyping, testing, and product development. My experience spans Formula SAE electromechanical
+  enclosure design, CNC machining, injection molding, reverse engineering, aerodynamic testing, and facility-scale
+  CAD digitalization. I am seeking entry-level mechanical engineering opportunities where I can apply hands-on
+  design, analysis, and validation skills to real engineering problems.
 
+# Place your profile image in /assets/images/profile-image/ and update the file name
+profile_image: ./assets/images/profile-image/profile.jpg
 
 # Link your resume
-# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+# Upload your resume PDF to assets/resume/ and use this path:
+resume-url: /assets/resume/Sean-Kimani-Resume-2026.pdf
 
+# External Links
+external-links:
+  linkedin: sean-kimani
+  github: SeanKimani
+  stackoverflow:
+  medium:
+  x-twitter:
+  threads:
+  instragram:
+  youtube:
+  discord:
+  bluesky:
 
-# Set up external links - this will show up as small icons next to your name.
-
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
-  
-
-# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
+# Skills Section
 skills:
-  - category: 3D Modeling
+  - category: CAD & Mechanical Design
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+      - SolidWorks
+      - Autodesk
+      - Parametric Modeling
+      - Assembly Design
+      - Mechanical Drawings
+      - GD&T
+      - Product Design
+
+  - category: Manufacturing & Prototyping
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+      - Tormach CNC Mill
+      - TRAK Lathe
+      - Injection Molding
+      - 3D Printing
+      - Laser Cutting
+      - Bandsaw
+      - Drill Press
+      - Tapping
+      - Rapid Prototyping
+
+  - category: Analysis & Testing
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+      - ANSYS
+      - Finite Element Analysis
+      - Testing and Validation
+      - Data Analysis
+      - Excel
+      - Experimental Design
+      - Motion Analysis
+      - Interference Detection
+
+  - category: Programming & Technical Tools
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
+      - Python
+      - MATLAB
+      - LaTeX
+      - G-code
+      - Excel
+
+  - category: Engineering Practice
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+      - Project Management
+      - Product Development
+      - Design Iteration
+      - Root-Cause Problem Solving
+      - Team Collaboration
+      - Technical Communication
 
+# Contact Form Setup
+# Create a Formspree account later if you want this active.
+formspree-key: https://formspree.io/f/{8-digit key}
 
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
-
-
-
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
+# Light professional theme
+colors:
+  text: "#1f2933"
+  border: "#d9dee7"
+  link: "#2f6f9f"
+  highlight: "#1f5f8b"
   background: "#ffffff"
-  light_background: "#f3f5fb"
+  light_background: "#f6f8fb"
 
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
+#########################################################################################################
+# Build settings for the site.
+# Editing below may cause the site to malfunction.
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+      indent: 0
+
+plugins:
+  - jekyll-feed
+
+include:
+  - _projects
 
 
 
